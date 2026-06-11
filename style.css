@@ -181,18 +181,14 @@ footer { padding: 2rem 0 2.5rem; display: flex; align-items: center; justify-con
     grid-template-columns: 1fr;
     gap: 0;
   }
+  .two-col > *:first-child {
+    margin-bottom: 1rem;
+  }
   .about-meta-item {
     grid-template-columns: 1fr;
     gap: 4px 0;
   }
   .meta-label {
     padding-top: 0.75rem;
-  }
-  .about-section .two-col > *:first-child,
-  .contact-section .two-col > *:first-child {
-    display: none;
-  }
-  .about-body {
-    grid-column: 1;
   }
 }
