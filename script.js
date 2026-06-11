@@ -4,19 +4,19 @@ const sections = [
     items: [
       {
         n: "01",
-        name: "izhikevich-network",
-        url: "https://izhikevich-network.vercel.app",
-        lang: "JS",
-        desc: "A two-variable dynamical system reproducing 20+ distinct firing patterns observed in real cortical neurons — regular spiking, bursting, chattering, fast spiking — rendered as a live multi-channel voltage raster.",
-        spikes: [5, 18, 7, 20, 9, 15, 11, 8]
-      },
-      {
-        n: "02",
         name: "hopfield-network",
         url: "https://github.com/ruedaniels/hopfield-network",
         lang: "Py",
         desc: "Recurrent neural network that stores memories as energy minima and retrieves them from noisy or partial inputs. Capacity ~0.138×N patterns; above this, spurious attractors dominate.",
         spikes: [14, 8, 17, 5, 19, 7, 12, 9]
+      },
+      {
+        n: "02",
+        name: "izhikevich-network",
+        url: "https://izhikevich-network.vercel.app",
+        lang: "JS",
+        desc: "A two-variable dynamical system reproducing 20+ distinct firing patterns observed in real cortical neurons — regular spiking, bursting, chattering, fast spiking — rendered as a live multi-channel voltage raster.",
+        spikes: [5, 18, 7, 20, 9, 15, 11, 8]
       },
     ]
   },
@@ -25,19 +25,19 @@ const sections = [
     items: [
       {
         n: "03",
-        name: "ghk-membrane",
-        url: "https://ghk-membrane.vercel.app",
-        lang: "JS",
-        desc: "Goldman–Hodgkin–Katz biophysics — adjust K⁺ and Na⁺ concentrations and watch membrane potential respond in real time.",
-        spikes: [9, 13, 18, 6, 17, 10, 14, 7]
-      },
-      {
-        n: "04",
         name: "som-demo",
         url: "https://som-demo-sigma.vercel.app",
         lang: "JS",
         desc: "Teuvo Kohonen's self-organizing map: a 12×12 neuron grid learns topology-preserving representations of a 3-colour input space with decaying learning rate and neighbourhood radius.",
         spikes: [6, 15, 9, 18, 7, 13, 10, 16]
+      },
+      {
+        n: "04",
+        name: "ghk-membrane",
+        url: "https://ghk-membrane.vercel.app",
+        lang: "JS",
+        desc: "Goldman–Hodgkin–Katz biophysics — adjust K⁺ and Na⁺ concentrations and watch membrane potential respond in real time.",
+        spikes: [9, 13, 18, 6, 17, 10, 14, 7]
       },
       {
         n: "05",
