@@ -174,3 +174,25 @@ footer { padding: 2rem 0 2.5rem; display: flex; align-items: center; justify-con
 #projects        { animation: fadeUp 0.6s 0.1s ease both; }
 .about-section   { animation: fadeUp 0.6s 0.15s ease both; }
 .contact-section { animation: fadeUp 0.6s 0.2s ease both; }
+
+/* ── MOBILE ── */
+@media (max-width: 520px) {
+  .two-col {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about-meta-item {
+    grid-template-columns: 1fr;
+    gap: 4px 0;
+  }
+  .meta-label {
+    padding-top: 0.75rem;
+  }
+  .about-section .two-col > *:first-child,
+  .contact-section .two-col > *:first-child {
+    display: none;
+  }
+  .about-body {
+    grid-column: 1;
+  }
+}
