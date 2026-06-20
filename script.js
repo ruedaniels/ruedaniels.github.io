@@ -5,8 +5,7 @@ const sections = [
       {
         n: "01",
         name: "hopfield-network",
-        url: "https://github.com/ruedaniels/hopfield-network",
-        lang: "Py",
+        url: "https://ruedaniels.github.io/hopfield-network/",
         desc: "Recurrent neural network that stores memories as energy minima and retrieves them from noisy or partial inputs. Capacity ~0.138×N patterns; above this, spurious attractors dominate.",
         spikes: [14, 8, 17, 5, 19, 7, 12, 9]
       },
