@@ -63,7 +63,7 @@ const sections = [
         n: "07",
         name: "perceptron-demo",
         url: "https://perception-demo.vercel.app",
-        desc: "Single-neuron perceptron learning to linearly separate two classes through gradient-free weight updates. Decision boundary visualized live as the network converges.",
+        desc: "Single-neuron perceptron learning to linearly separate two classes through error-driven weight updates. Decision boundary visualized live as the network converges.",
         icon: "perceptron"
       },
     ]
